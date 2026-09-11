@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto y reservas | Raíces de Puebloviejo</title>
+<meta name="description" content="Contáctanos para reservar un tour en Puebloviejo, Los Ríos. Formulario de reserva y datos de contacto de Raíces de Puebloviejo.">
+<link rel="icon" href="images/mi-icono.jpg" type="image/jpeg">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/mi-icono.png" alt="" class="brand-mark" width="280" height="150">
+      <span class="brand-text">Raíces<em>de Puebloviejo</em></span>
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+    <label for="menu-toggle" class="menu-toggle-btn" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="destinos.html">Destinos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Contacto</p>
+      <h1>Cuéntanos qué quieres conocer de Puebloviejo</h1>
+      <p class="hero-lead">Completa el formulario y te responderemos con disponibilidad, precios y recomendaciones según tu grupo.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col contact-layout">
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="09XXXXXXXX" pattern="[0-9]{7,10}" required>
+          </div>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label for="destino">Destino o actividad</label>
+            <select id="destino" name="destino" required>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option value="mango-tour">Mango Tour</option>
+              <option value="haciendas-cacao">Haciendas de cacao y banano</option>
+              <option value="pesca">Pesca deportiva en el río</option>
+              <option value="museo">Museo y centro histórico</option>
+              <option value="puerto-pechiche">Puerto Pechiche rural</option>
+              <option value="fin-de-semana">Fin de semana montuvio</option>
+            </select>
+          </div>
+          <div>
+            <label for="tipo-servicio">Tipo de servicio</label>
+            <select id="tipo-servicio" name="tipo-servicio" required>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option value="tour-medio-dia">Tour de medio día</option>
+              <option value="tour-dia-completo">Tour de día completo</option>
+              <option value="paquete-fin-semana">Paquete de fin de semana</option>
+              <option value="a-medida">Paquete a medida</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label for="fecha">Fecha tentativa</label>
+            <input type="date" id="fecha" name="fecha" required>
+          </div>
+          <div>
+            <label for="personas">Número de personas</label>
+            <input type="number" id="personas" name="personas" min="1" max="30" value="2" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué te gustaría conocer o si tienes alguna necesidad especial"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">Enviar solicitud</button>
+      </form>
+
+      <aside class="contact-info">
+        <h2>Otros datos de contacto</h2>
+        <p><strong>Oficina:</strong> Centro de Puebloviejo, Los Ríos, Ecuador</p>
+        <p><strong>Teléfono / WhatsApp:</strong> +593 99 8714 5688</p>
+        <p><strong>Correo:</strong> agenciaviajes@raicesdepuebloviejo.ec</p>
+        <p><strong>Horario de atención:</strong> lunes a sábado, 08:00 a 17:00</p>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/mi-icono.png" alt="" class="brand-mark" width="280" height="150">
+      <span>Raíces de Puebloviejo</span>
+      <p>Agencia de turismo rural — Puebloviejo, Los Ríos, Ecuador.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Enlaces del pie de página">
+      <a href="index.html">Inicio</a>
+      <a href="destinos.html">Destinos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="footer-contact">
+      <p>Centro de Puebloviejo, Los Ríos</p>
+      <p>agenciaviajes@raicesdepuebloviejo.ec</p>
+      <p>+593 99 8714 5688</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Raíces de Puebloviejo.</p>
+  </div>
+</footer>
+
+</body>
+</html>
